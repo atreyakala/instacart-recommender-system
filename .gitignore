@@ -1,0 +1,43 @@
+# Python / virtual environments
+venv/
+.venv/
+env/
+.env
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Jupyter / checkpoints
+.ipynb_checkpoints/
+.checkpoints/
+
+# Data / local CSVs (per repo constraint — raw data not committed)
+data/raw/*.csv
+data/interim/*.csv
+data/processed/*.csv
+*.csv
+
+# Model artifacts / checkpoints (no model persistence per constraints)
+*.pkl
+*.joblib
+*.h5
+*.pt
+checkpoints/
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Notebooks
+*.ipynb
